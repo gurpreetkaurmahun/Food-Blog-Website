@@ -1,0 +1,96 @@
+<%- include("partials/header"); -%>
+
+
+
+<h1>lets try </h1>
+
+
+<!-- <div style="margin:100px;margin-left:200px;border:2px solid green;width:500px;">
+
+  <form action="/tryMenu" method="get"> <input name="search" placeholder="Search here..." value="" style="width:400px;">
+    <button type="submit"><i class="fa fa-search"></i></button>
+
+</div> -->
+<div style="margin-top: 100px;">
+
+<div style="margin-top:50px;margin-left:200px;width:500px;display:inline-block;position: relative;bottom: 50px;;">
+<p>Top results</p>
+<hr style="width:400px"></div>
+<div style="margin-left:570px;width:400px;display:inline-block;position: absolute;">
+
+  <form class="example" action="/tryMenu" method="get"> <input name="search" placeholder="Search here..." value="" style="width:250px;">
+    <button type="submit"><i class="fa fa-search"></i></button>
+
+</div>
+  </div>
+
+
+
+<div >
+<div class="imagecontent" style=" min-height:500px;display: inline-block">
+  <p style="margin-left: 200px;;">search results for <%=Query%></p>
+  <% if(Results === ''){ %>
+     <h6>Sorry, no content matched your criteria. Search from Allrecipes below! </h6>
+<% }  %>
+ 
+
+ 
+    <% Address.forEach(function (array1){ %>
+      
+   
+      <div class="outer"  style="display: inline-block;" >
+          
+        <div class ="inner" ><a href="/<%=array1.category%>/<%=array1._id%>"><img src="/images/<%=array1.mainImage%>" style="border:1px solid black; width:200px;height:250px;"></a> </div>
+        <hr style="margin-left: 10px;width:200px;">
+        <h6 class="adjust-line-height" style="margin-left: 12px;height:auto;width:200px;"><%=array1.recipeName%>  </h6>
+      </div>
+   
+
+    <% }) %>
+ 
+
+  </div> 
+  <div class="introduction" style="position: absolute;" >
+    <div class="introContent" style="position: relative;bottom:0;" ><h1>hey all its nice to meet you all</h1><img src="images/dp.png" style="float: left;margin: 10px;"height="150" width="150"><p style="text-align: left;">Welcome! My name is Gurpreet and this is my internet kitchen hang-out.
+         A self-confessed balanced foodie sharing some waistline friendly recipes that are full of flavour. Life is too short for bland and boring   ></p> <a href="/ChocolateCake"   >Read More</a></div></div>
+  
+</div>
+
+
+<div class="try">
+  <div style="margin-top:50px;margin-left:200px;">
+    <p>All recipes!</p>
+    <hr style="width:400px">  </div>
+    <div class="allRecipes" style="margin-top: 50px; margin-left: 200px;width:80%;display: grid;">
+
+
+
+
+   
+      <% Address1.forEach(function (arrayAll){ %>
+  
+        <div  class="allRecipesOuter" >
+            
+          <div  ><a href="/<%=arrayAll.category%>/<%=arrayAll._id%>"><img src="/images/<%=arrayAll.mainImage%>" style="border:1px solid black;height:140px;width:120px;"></a> </div>
+          <hr style="width:120px;">
+          <div style="position: relative;bottom: 5px;" >
+            <h6 class="adjust-line-height" style="display: inline-block;  height:auto;width:80px;font-size: .70rem;"><%=arrayAll.recipeName%>  </h6>
+            <h5 style="display: inline-block;position: absolute; margin-left: 15px;">❤️ </h5></div>
+        </div>
+     
+  
+      <% }) %>
+  
+  </div>   
+</div>   </div> 
+  <%- include("partials/footer"); -%>
+
+
+  <!-- <div class="introduction" >
+    <div class="introContent" ><h1>hey all its nice to meet you all</h1><img src="images/dp.png" style="float: left;margin: 10px;"height="150" width="150"><p style="text-align: left;">Welcome! My name is Karina and this is my internet kitchen hang-out.
+         A self-confessed balanced foodie sharing some waistline friendly recipes that are full of flavour. Life is too short for bland and boring   ></p> <a href="/ChocolateCake"   >Full Rnbbffffffecipe</a></div></div> -->
+
+
+
+
+  

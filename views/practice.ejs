@@ -1,0 +1,107 @@
+<%- include("partials/header"); -%>
+<div class="second" >
+        
+    <div class="date"><h6><%=Address.date%> /</h6> </div>
+    <div class="date" style="margin-left: 10px;"><a href="/<%=Address.category%>" style="text-decoration: none;color:black"><%=Address.category%></a></div>
+    
+    <img src="/images/<%=Address.mainImage%>" class="image1"  style="margin-top: 80px;" height="750" width="600">
+    
+    <div class="box1" style="margin-bottom: 20px;"><h1><%=Address.recipeName%></h1>
+    <h3><%=Address.recipeTag  %></h3></div>
+    <div class="linkRecipe"><img src="/images/Edit arrow.png"  ><a type="button" href="#recipe" style>Jump to recipe!</a></div>
+    <div class="box2"><p><%=Address.description%></p></div>
+</div>
+<div class="break" style="margin-bottom: 0;padding-bottom: 0;">   
+    <div class="mid" >
+      <div class="blkimg" style="width:40px;"><img src="/images/icons8-heart-100.png" height="30"></div>
+    <div class="blk" > <hr>  </div>
+          
+    <div class="blkimg" style="width:40px;"><img src="/images/icons8-heart-100.png" height="30"></div>
+    <div class="blk" ><hr  ></div>
+    <div class="blkimg" style="width:40px;"><img src="/images/icons8-heart-100.png" height="30"></div>
+  
+  </div>
+
+</div>
+<!-- <div class="middlecontainer"><p class="dots" style="font-size: 3rem;">.........</p></div> -->
+<div class="middlecontainer">
+<div class="bio" style="background-color: rgb( 121,206,214);border-radius: 1%;">
+    <h1>Key Points</h2>
+    <p><%= Address.keyPoint   %></p>
+</div>
+</div>
+<div class="content"style="display:block;">
+<div class="imageCar" style="display:inline-block;" >
+ <h4></h4>
+<div class="second"><img src="/images/<%=Address.image2 %>"  height="700"></div>
+</div>
+<div class="instagram" style="display: inline-block;margin-left: 50px;position: relative;top:5px;border:1px solid black;box-shadow: 5px 10px black;">
+<div class=" insta" style=" width:300px;height:auto;"> <h1 style="display: inline-block;margin-left: 30px;margin-right: 50px;margin-bottom: 30px;">Instagram</h1>
+<img src="/images/LotusIce.jpg" style="height:100px;width:100px;margin:5px ;margin-left:30px;display: inline-block;">
+<img src="/images/coffee.jpg" style="height:100px;width:100px;margin:5px ;display: inline-block;">
+<img src="/images/Cookie.jpg" style="height:100px;width:100px;margin:5px ;margin-left:30px;display: inline-block;">
+<img src="/images/Bread.jpg" style="height:100px;width:100px;margin:5px;display: inline-block;">
+<img src="/images/drinks.jpg" style="height:100px;width:100px;margin:5px ;margin-left:30px;display: inline-block;margin-bottom: 30px;">
+<img src="/images/falafel.jpg" style="height:100px;width:100px;margin:5px;display: inline-block;margin-bottom: 30px;">
+
+
+</div>
+</div>
+
+</div>
+
+<div class="major" id="recipe" style="margin-bottom: 100px;">
+    <div class="top" >
+        <img class="image" src="/images/<%=Address.image3 %>" height="250">
+        <h1><%= Address.recipeName%></h1>
+        <p><%=Address.recipeSummary %> </p>
+        <button  > click for recipe</button></div>
+
+<div class="mid" style="margin-left: 50px;">
+    <div class="blk"  > <hr>  </div>
+         
+    <div class="blkimg" style="width:40px;"><img src="/images/icons8-heart-100.png" height="30" style="margin-left: 20px;"></div>
+    <div class="blk" ><hr  ></div></div>
+<div class="mid"> 
+    <div class="details"  >
+    <h3 >Prep time:</h3>
+    <p ><%= Address.preptime %></p></div>
+   <div class="details">
+    <h3 >CookTime: </h3>
+    <p ><%=Address.cooktime %></p></div></div>
+<div class="mid" style="margin-top: 40px;margin-left: 50px;">
+    
+        <div class="blk" > <hr>  </div>
+             
+        <div class="blkimg" style="width:40px;"><img src="/images/icons8-heart-100.png" height="30" style="margin-left: 20px;"></div>
+        <div class="blk" ><hr  ></div>
+    </div>
+      
+<div class="top" style="height:auto;">
+    <h3 >Ingredients:</h3>
+    <ul>
+
+    <li class="line"> <%=Address.ingredients %></li>
+        
+    </ul>
+   
+</div>
+<div class="top" style="height:auto;">
+    <h3>Method:</h3>
+    <ul><li class="line"><%=Address.method %></li>
+       
+        
+    </ul>
+</div>
+<div class="mid" style="margin-left: 50px;">
+<div class="blk"  > <hr>  </div>
+         
+<div class="blkimg" style="width:40px;"><img src="/images/icons8-heart-100.png" height="30" style="margin-left: 20px;"></div>
+<div class="blk" ><hr  ></div></div></div>
+
+</div>
+
+
+
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,42 @@
+<%- include("partials/header"); -%>
+
+<div class="prob" style="width:70%;margin-left:200px;margin-top:  150px;">
+    <h1>Compose</h1>
+    <form class="" action="/compload" method="post" enctype="multipart/form-data">
+      <div class="form-group prob" ></div>
+        <label>Date</label>
+        <input class="form-control" type="date" name="date" placeholder="dd/mm/yyyy">
+        <label>category</label>
+        <input class="form-control" type="text" name="category">
+        <label>Recipe Name</label>
+        <input class="form-control" type="text" name="recipeName">
+        <label>TagLine</label>
+        <input class="form-control" type="text" name="recipeTag">
+        <label>Description</label>
+        <textarea class="form-control" name="description" rows="5" cols="30"></textarea>
+        <label>DisplayImage</label>
+        <input class="form-control" type="file" name="mainImage">
+      
+        <label>KeyPoints</label>
+        <textarea class="form-control" name="keyPoint" rows="5" cols="30"></textarea>
+        <label>DisplayImage1</label>
+        <input class="form-control" type="file" name="image2">
+        <label>RecipeSummary</label>
+        <input class="form-control" type="text" name="recipeSummary">
+        <label>DisplayImage2</label>
+        <input class="form-control" type="file" name="image3">
+        <label>PrepTime</label>
+        <input class="form-control" type="text" name="preptime">
+        <label>CookTime</label>
+        <input class="form-control" type="text" name="cooktime">
+        <label>Ingredients</label>
+        <textarea class="form-control" name="ingredients" rows="5" cols="30"></textarea>
+        <label>Method</label>
+        <textarea class="form-control" name="method" rows="5" cols="30"></textarea>
+       
+      </div>
+      <button class="btn btn-primary Publish" type="submit" name="button">Publish</button>
+    </form>
+
+
+    <%- include("partials/footer"); -%>

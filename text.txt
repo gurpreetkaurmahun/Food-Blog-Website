@@ -1,0 +1,44 @@
+      date: '2023-08-06',
+      category: 'baking',
+      recipeName: 'Moist Mango Cake!',
+      recipeTag: 'Layers of Chiffon Cake with goodness of Mangoes!',
+      description: "This Mango cake is made up of fluffy cotton soft sponge cake, fresh and juicy mango, all topped with a light vanilla whipped cream. What can go wrong with layers of cotton soft sponge cake and fresh mango! This cake is just like those mango cakes you'll find in Artisan bakeries, but even better. Filled to the brim 
+with mango and the softest sponge cake you'll ever bake, once you bake this you'll have a hard time going back to the bakery! So Go Ahead and give it a try! 💛\r\n" +
+        '\r\n',
+      mainImage: '1691317139161-MangoCake.jpg',
+      keyPoint: "Don't eat eggs. Don't worry this recipe for mango cake has got you covered..IT'S EGGLESS. The milk vinegar mixture provides the softness as well as moisture to the cake. However, As I always suggest, cover and cool the cake after baking for 5-10 mins and then tightly wrap the cake with cling film and let the cake cool for sponge like texture.Do give this cake a try  for the delicious Mango Extragavanza🥭🥭"  ,
+      image2: '1691317139165-Car1.jpg',
+      recipeSummary: 'The only tried and tested recipe for Mango cake you need that is  so soft and fluffy on the inside and gorgeously Yummy as well! ',
+      image3: '1691317139169-car.jpg',
+      preptime: '15 mins',
+      cooktime: '40 mins',
+      ingredients: '   50 grams butter\r\n' +
+        '   45 ml  Vegetable oil\r\n' +
+        '   1/3rd cup powdered Sugar\r\n' +
+        '   1/3rd cup Condensed Milk\r\n' +
+        '   1 tbsp Vanilla extract\r\n' +
+        '   1+1/4th cup All Purpose Flour\r\n' +
+        '   1/4th cup Cornflour\r\n' +
+        '   1+1/4th  tsp Baking Powder\r\n' +
+        '   1/4th tsp Baking Soda\r\n' +
+        '   1 cup Milk(room temperature)\r\n' +
+        '   1/2 tbsp Vinegar\r\n' +
+        '   1/2 cup simple sugar syrup for moistnening the sponges.\r\n' +
+        '   300 ml whipped cream for icing\r\n' +
+        '    2 cups chopped mangoes\r\n',
+      method: '      Preheat the oven at 180C for 10-15 mins.\r\n' +
+        '      Add Vinegar to 1 cup of milk at room temperature and keep aside.\r\n' +
+        '      Add Butter,oil & powdered sugar to a big bowl and whisk well until pale and creamy.\r\n' +       
+        '      Add condensed milk and whisk well for another 3-4 mins.\r\n' +
+        '      Sift flour, cornflour, baking powder and baking soda in a separate bowl.\r\n' +
+        '      Add half of flour mix to the butter mix and add half of milk-vinegar mixture and mix gently.\r\n' +
+        '      Add remaining flour and adjust the consistency(ribbon like consistency) with remaining milk-vinegar mixture and mix well.\r\n' +
+        '      Pour in 2 6" cake tins(greased and lined) and bake in a preheated oven for 20-25 minutes or until a skewer comes out clean.\r\n' +
+        '      Bake in a preheated oven for 20-25 minutes or until a skewer comes out clean.\r\n' +
+        '      Cover  and cool the cakes for 5 mins and then tightly wrap them in cling film and the cakes cool 
+completly at room temperature.\r\n' +
+        '      Slice the cakes in desired thickness and gently spray sugar syrup and add a layer of whipped crea followed by chopped mangoes\r\n' +
+        '      and repaeat the process for remaining cake layers.\r\n' +
+        '      Ice the cake with remaining cream and decorate accordingly .\r\n' +
+        '\r\n' +
+        '      \r\n',

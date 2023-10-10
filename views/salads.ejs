@@ -1,0 +1,88 @@
+<%- include("partials/header"); -%>
+<div class="secondLayout" >
+        
+    <div class="date" style="margin-left: 50px;"><h6>You are here </h6> </div>
+    <div class="date" style="margin-left: 10px;"><a href="" style="text-decoration: none;color:black"><%=categoryDetail%></a></div></div>
+
+  <div class="title"style="margin-top: 50px;">
+
+    <div class= "titleH1">  
+      <h1 style="font-family: 'Tangerine', cursive;font-weight:bolder;font-size: 4rem;">Salads!</h1>
+      <p style="text-align: justify;">
+        Browse thorugh a recipes to choose the best option for the win-win.
+        Time is an important part of our life and we cannot avoid it.
+      </p>
+      
+    </div>
+            
+    
+    
+    
+    <div class="formLayout" style="width:300px;margin-bottom: 50px;display: inline-block;margin-left:350px;position:absolute;">
+              <form class="example" action="/tryMenu" method="get" >
+                  <h4>Looking for a recipe search here instead!</h4>
+                  <input type="search" placeholder="Search..🔍" name="search">
+                  <button type="submit"style="height:30px;width:50px;"><i class="fa fa-search"></i></button>
+                  <hr >
+                </form>
+                
+    </div>
+
+
+  </div>
+  <div class="recipeTitle" ><h6>Recipes</h6><hr></div>
+
+
+   <div class="big" style="margin-top: 50px;"> 
+  
+    <div class="imagecontent" >
+      <% addressImage.forEach(function (array){ %>
+
+        <div class="outer"  >
+            
+          <div class ="inner" ><a href="/salads/<%=array._id%>"><img src="/images/<%=array.mainImage%>" style="border:1px solid black; width:200px;height:250px"></a> </div>
+          <hr style="margin-left: 0;width:200px;">
+          <h6 class="adjust-line-height" style="margin-left: 0;height:auto;position:absolute;width:200px;text-align: justify;"><%=array.recipeName%>  </h6>
+        </div>
+     
+
+      <% }) %>
+      
+      
+           
+          
+    
+    
+    
+    
+    </div>   
+
+<div class="detailContent" >
+        
+
+
+          <div class="introductionCategory " style="width:320px;margin-bottom: 50px;" >
+              <div class="introCategory" style="width:300px;background-color: rgb(232, 251, 253);height:auto;margin-bottom: 50px;" ><h1>hey all its nice to meet you all</h1><img src="images/dp.png" style="float: left;margin: 10px;"height="150" width="150"><p style="text-align: left;">Welcome! My name is Karina and this is my internet kitchen hang-out.
+                  A self-confessed balanced foodie sharing some waistline friendly recipes that are full of flavour. Life is too short for bland and boring   ></p><a href="" style="margin-left: 180px;text-decoration: none;color:black;">Read more</a></div>
+
+            
+                  <div class="instagramCategory" >
+                      <div class=" instaCategory" style=" width:300px;height:auto;border:1px solid black;box-shadow: 3px 7px black;"> <a href="https://www.instagram.com/foodrizzle000/" style="color:black;text-decoration: none;"><h2 style="margin-left: 30px;margin-top: 20px;" >Instagram</h2></a>
+                      <img src="images/LotusIce.jpg" style="height:100px;width:100px;margin:5px ;margin-left:30px;display: inline-block;">
+                      <img src="images/coffee.jpg" style="height:100px;width:100px;margin:5px ;display: inline-block;">
+                      <img src="images/Cookie.jpg" style="height:100px;width:100px;margin:5px ;margin-left:30px;display: inline-block;">
+                      <img src="images/drinks.jpg" style="height:100px;width:100px;margin:5px;display: inline-block;">
+                      <img src="images/pizza.jpg" style="height:100px;width:100px;margin:5px ;margin-left:30px;display: inline-block;margin-bottom: 30px;">
+                      <img src="images/falafel.jpg" style="height:100px;width:100px;margin:5px;display: inline-block;margin-bottom: 30px;">
+                      </div>
+                  </div>
+
+
+          </div>
+
+
+</div>
+</div>   
+
+
+<%- include("partials/footer"); -%>

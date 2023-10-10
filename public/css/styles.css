@@ -1,0 +1,1150 @@
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+  
+   
+  position: fixed;
+  z-index: 1000000;
+  top:0;
+ height:100px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  list-style-type: none; 
+  background-color: rgb( 121,206,214);
+  font-size: 15px;
+  letter-spacing: 5px;
+ 
+}
+.bar  >a:hover {
+    color:rgb(184,24,84);
+}
+.bar{
+  display:inline-block; margin-left: 10px;  border-right:1px  solid black;
+}
+.dropdown{
+  display:inline-block; margin-left: 10px;  border-right:1px  solid black;
+}
+.bar >a{
+    
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    padding-right: 20px;
+    margin-right: 10px;
+    text-decoration: none;}
+
+.barMain{
+  position: relative;
+  bottom:50px;
+  margin-left: 500px;
+  margin-top: 0;
+   
+}
+
+/* navbar upwards i */
+   
+   .date{
+     
+      margin:0;
+      padding-top:30px;
+      text-align: left;
+      display: inline-block;
+      margin-left:100px;
+   }
+   .major{
+    border:2px solid black;
+    box-shadow:0 5px 15px rgb(104, 103, 103);
+    width:1050px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    display: block;
+    background-color:white;
+    
+    margin-left:400px;
+    
+    /* background-image: url("Screenshot\ \(66\).png");
+    background-size: 100% 100%; */
+
+    
+}
+
+.linkRecipe{
+  position: relative;
+  left:250px;
+  width:200px;
+  height:40px;
+  margin-left: 100px;
+ padding-top: 20px;
+  border-radius: 5%;
+  border: 1px solid black;
+  background-color: rgb(216, 70, 102);
+  box-shadow: 0 5 15 black;
+  text-align: center; 
+}
+.linkRecipe>a{
+  text-decoration: none;
+  color:whitesmoke;
+  font-size: 1.25rem;
+
+  position: relative;
+  bottom:15px;
+}
+.linkRecipe>img{
+  position: relative;
+  border: 2px solid white;
+  height: 38px;
+  border-radius: 5%;
+  bottom:20px;
+  right:12px;
+  padding:0;
+  margin:0;
+}
+    .top{
+        
+        text-align: left;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+        
+    }
+    .top>h1 {
+        margin-left: 30px;
+        margin-top: 50px;;
+    }
+    .top>p{
+        margin-left: 30px;
+    }
+    .top>ul>li{
+        margin-left: 30px;
+    }
+  
+  
+    .imageCar{
+        width:50%;
+        display: block;
+        margin-left: 300px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .imageCar>h4{
+        margin-left: 150px;
+        position:relative;
+        top:50px;
+    }
+
+    .imageCar>.second>img{
+        margin-top: 0;
+        width:800px;
+        border: 1px solid black;
+        box-shadow:0 5px 15px rgb(104, 103, 103) ;
+    }
+    .image{
+        float:right;
+        margin:30px;
+        margin-bottom: 30px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px black;
+    }
+    .major>.top>button{
+        height:50px;
+        background-color: rgb(216, 70, 102);
+        font-size: 2rem;
+        margin-left: 30px;
+        color: aliceblue;
+        box-shadow: 2px 5px black;
+    }
+    .break>.mid{
+      margin-left: 350px;
+    }
+    .mid{
+        display: block;
+       
+        padding:0;
+        height: 30px;
+        margin:0;
+        position: relative;
+       right:50px;
+        
+
+    }
+    .blk{
+        
+        display: inline-block;
+        width:350px;
+        margin-bottom: 0;
+        text-align: center;
+        margin-left: 50px;
+        
+        
+    }
+    .blkimg{
+        margin:0;
+        position: relative;
+        bottom:10px;
+       
+        display: inline-block;
+    }
+    .blkimg >img{
+        
+        position: relative;
+        top:0;
+        
+    }
+    .major>.mid>.blk{
+        margin-left: 30px;
+       
+    }
+    .details{
+        display: inline-block;
+        margin-bottom: 20px;
+   
+        
+        
+    }
+  
+    .mid>.details{
+        margin-left:100px;margin-right: 200px;display: inline-block;
+    }
+   
+    h3{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+   
+    .details>h3{
+        padding-top:0;
+        margin:0;
+    }
+    .details>p{
+        padding-top:0;
+        margin:0;
+    }
+    .second{
+        width:85%;
+        height:800px;
+        display:block;
+        margin-left: 100px;
+        margin-top: 100px;
+     
+
+    }
+    .second>img{
+      transition: 0.2s all ease-in-out;
+    }
+    .second>img:hover{
+      transform: scale(1.1);
+    }
+    .box1{
+        width:700px;
+        text-align: center;
+        border-color:black;
+        display:block;
+        margin-left: 100px;
+        margin-top: 80px;
+        border-style: double;
+    }
+        
+    .box2{
+        width:800px;
+        text-align: justify;
+        font-size: 1.25rem;
+        display:block;
+        margin-left: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        
+        
+    }
+    .image1{
+        float:right;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px black;
+        margin-left: 30px;
+    }
+    .middlecontainer{
+
+        display: block;
+        text-align: left;
+        padding-top: 50px;
+         }
+    .bio{
+        width:60%;
+        padding:10px;
+        text-align: left;
+        
+        margin-left: 280px;
+    }
+    .bio>h1{
+        margin-left: 20px;
+    }
+    .bio>p{
+        margin-left: 20px;
+       
+    }
+  
+ 
+        .break{
+            display:block;
+            padding: 40px;
+            
+            margin-top: 50px;
+          }
+          .main{
+            display: block;
+          
+            margin-left: 150px;
+            margin-top: 150px;
+            margin-right: 0;
+          }
+        .pro>img{
+            width:300px;
+            height:350px;
+            margin: 0;
+            padding:0;
+            position: relative;
+            left: 10px;
+
+        }
+       
+        .main1{
+            display: block;
+       
+            margin-top: 20px;
+            /* margin-right: 0; */
+           
+          }
+          .right{
+            display: block;
+            
+            margin-top: 20px;
+            margin-right: 0;
+            margin-left: 200px;margin-right: 30px;
+          }
+          .left{
+            display: block;
+           
+            margin-left: 150px;
+            margin-top: 20px;
+            margin-right: 0;
+            margin-left: 30px;margin-right: 30px;
+          }
+          
+          .pro1>img{
+            width:300px;
+            height:350px;
+            margin: 0;
+            padding:0;
+            position: relative;
+            left: 10px;
+
+        }
+    
+        .align{
+            display: block;
+           
+            margin-left: 150px;
+            margin-top: 20px;
+            margin-right: 0;
+            margin-left: 0;margin-right: 30px;
+        }
+        /* .category{
+          border:1px solid red;
+        } */
+      
+        .category>.pro{
+            display:inline-block;
+           
+        }
+        .category>.main1>.pro1>img{
+          padding:10px;
+          border:1px solid black;
+          border-bottom: 15px solid black;
+        }
+        
+        .main1>.pro1>img:hover{
+            border-right: 10px solid black;
+        border-bottom: 25px solid black;
+          }
+          .category>.top{
+            display:block;margin-left: 450px;height:auto;margin:0;padding: 0; position: relative;top:15px;
+          }
+          .category>.top>h3{
+            display:inline-block;margin-left: 200px;padding-bottom: 0;margin-bottom: 0;
+        
+          }  
+          .anchor{
+            width:172px;text-align:center;display:inline-block;margin-left:1100px;background-color: rgb(207, 251, 255);
+          }
+          .anchor>a{
+            display:inline-block;text-decoration: none;font-size:1.5rem;font-family: 'Times New Roman', Times, serif;height:40px;color:black;
+          }
+          .anchor:hover{
+            background-color:  rgb(38, 109, 116);
+          }
+          .category>.top>h4>a{
+            text-decoration: none;color:black;
+          }
+          .category>.main1{
+            margin-bottom: 100px;
+            display: inline-block;
+          }
+        
+          .recipeHighlight{
+            margin-bottom: 150px;height: 450px;
+          }
+          .introImage{
+            margin-left: 300px;display:inline-block;margin-right: 0;padding-right: 0;position: relative;bottom:50px;
+          }
+          .intro{
+            display: inline-block;width:40%;background-color:rgb(51, 163, 173);position: relative;top:40px;right:4px;height:400px;
+          }
+          .intro>h1{
+                margin-left: 30px;margin-top: 30px;
+          }
+          .intro>h2{
+            margin-left: 30px;
+          }
+          .intro>p{
+            margin-left: 30px;text-align: justify;margin-right: 30px;
+          }
+        
+          .introAnchor{
+            margin-left: 30px; background-color: rgb(38, 109, 116);width: 150px;box-shadow: 2px 5px rgb(77, 174, 187);text-align: center;
+          }
+          .introAnchor>a{
+            display:inline-block;text-decoration: none;font-size:1.5rem;font-family: 'Times New Roman', Times, serif;height:40px;color:black;
+          } 
+          .main>.mainImage>img{
+            height:600px;
+            width:500px;
+      }
+      .main>.mainImage>img:hover{
+        opacity:0.5;
+      }
+      .mainImage>.heading{
+        position: relative;left:350px;bottom:100px;text-shadow:  2px 2px grey;
+      }
+      .mainImage>.heading:hover{
+        text-shadow:  4px 4px grey;
+      }
+      .mainImage>.heading1{
+        position: relative;left:260px;bottom:100px;text-shadow:  2px 2px grey;
+      }
+      .mainImage>.heading1:hover{
+        text-shadow:  4px 4px grey;
+      }
+      .mainImage>.heading2{
+        position: relative;left:320px;bottom:100px;text-shadow:  2px 2px grey;
+      }
+      .mainImage>.heading2:hover{
+        text-shadow:  4px 4px grey;
+      }
+      .content{
+        margin-top: 100px;
+      }
+      .contentHeading{
+        width:50%;margin-left: 200px;display: inline-block;
+
+      }
+      .contentHeading>hr{
+        width:800px;position: relative;bottom:10px;
+      }
+      .form{
+        width:30%;display: inline-block;
+      }
+      .form>.example{
+        margin:auto;max-width:300px;margin-right: 200px;;
+      }
+      .form>.example>hr{
+        display:none;
+      }
+      .recipeContainer{
+        margin-top: 50px;
+       
+      }
+      .recipeHeading{
+        display: inline-block;width:1100px}
+      .recipeHeading>h2{
+        margin-left: 200px;
+      }
+      .recipeHeading>img{
+        height:900px;width:800px;margin-left: 200px;
+      }
+      .recipeHeading>img:hover{
+        opacity: 0.8;
+      }
+      .recipeHeading>p{
+        margin-left: 200px;margin-top: 30px;width:800px;text-align: justify;
+      }
+      .recipeHeading>p>a{
+      text-decoration: none;color:black;font-size: 1.25rem;
+      }
+      .introduction{
+        display: inline-block;
+      }
+      .introContent{
+        width:300px;position: relative;bottom:300px;left:120px;background-color: rgb(232, 251, 253);height:auto;
+      }
+      .instagram{
+        display: inline-block;margin-left: 120px;position: relative;bottom:200px;border:1px solid black;box-shadow: 5px 10px black;
+      }
+      .insta>h1{
+        display: inline-block;margin-left: 30px;margin-right: 50px;margin-bottom: 30px;
+      }
+    
+     
+      .category>a:hover{
+        color:black;
+      }
+     .category>hr{
+      position: relative;
+      bottom: 80px;
+     }
+     .top>h2:hover{
+      color: rgb(212, 55, 55);
+     }
+    .adjust-line-height {
+      line-height: 1em;
+    }
+   footer> .foot{
+      margin-left: 150px;
+      height: 250px;
+    }
+    footer>.foot>a>.blkimg>img{
+      height:100px;
+    }
+    footer>.foot>h6{
+      position: relative;top:40px;right:180px;color:rgb(  0,60,65);
+    }
+    footer>.menu{
+      width:50%;display:inline-block;position: relative;left:900px;bottom:150px;
+    }
+    .menu>ul{
+      position: relative;right:150px;width:auto; 
+    }
+    .menu>ul>li>h3{
+       margin-right: 30px;
+    }
+    .menu>ul>li{
+      border-right:1px  solid black;
+    }
+    .menu>ul>li>a>img{
+      height:50px;
+      border-radius: 30%;border:5px solid white;margin-right: 30px;margin-left: 10px;
+    }
+
+    /* baking/maincpurse styling */
+
+    .secondLayout{
+      height:auto; width:85%;
+       
+        display:block;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .formLayout{
+      width:300px;margin-bottom: 50px;display: inline-block;margin-left:350px;position:absolute;
+    }
+    .titleH1{
+      display: inline-block;margin-left: 200px;text-align: center;position:relative;width:40%;
+    }
+      .outer{
+        display: inline-block;margin-bottom: 50px;margin-right: 20px;
+          
+            margin-top: 20px;height:300px;width:250px; transition: 0.2s all ease-in-out ; ;
+            /* margin-right: 0; */
+           
+          }
+          .outer:hover{
+            transform: scale(1.1);
+          }
+          .inner{
+            display: inline-block;}
+            .inner>a{
+              width:200px;
+               height:250px;
+            
+            }
+          .inner>img{
+            width:200px;
+            height:250px;
+            margin: 0;
+            padding:0;
+            position: relative;
+            left: 10px;
+            border-bottom: 5px solid black;}
+            .allRecipes{
+              display:grid;
+              grid-template-rows: repeat(8,220px);
+              grid-template-columns: repeat(8,130px);
+              column-gap: 30px;
+              row-gap: 30px;
+            }
+            .allRecipesOuter{
+             transition: 0.2s all ease-in-out ;
+            }
+            .allRecipesOuter:hover{
+              transform: scale(1.1);
+            }
+
+          .imagecontent{
+            width:50%;margin-left: 200px;display:inline-block;position: relative;min-height: 1000px;
+          }
+          .detailContent{
+            width:30%;display: inline-block;margin-left: 170px;position: absolute;height:1000px;
+          }
+          .introductionCategory{
+            display: block;
+          }
+          .introCategory{
+            width:300px;position: absolute;background-color: rgb(232, 251, 253);height:auto;
+          }
+          .instagramCategory{
+            display: block;position: relative;top:500px;
+          }
+          .recipeTitle{
+            width:800px;margin-left: 200px;margin-bottom: 50px;margin-top: 50px;
+          }
+          .line{
+            white-space: pre;
+          }
+    
+    @media (min-width:310px) and (max-width:1200px) {
+            .second{
+             width:90%;
+            margin-left: 10px;
+            
+            height: auto;
+            margin-top: 100px;
+              
+              
+            }
+            .second>.date{
+              margin-left: 10px;
+              position: relative;
+              top:70px;
+              
+             
+            }
+            .second>img{
+             
+              height:350px;
+              width:380px;
+              display: block;
+              padding: 0;
+              box-shadow: 2px 5px black;
+              position: relative;
+              left:0;
+             
+              margin-bottom: 20px;
+            }
+            .second>.box1{
+              display: block;
+                width:70%;
+                
+                text-align: left;
+                margin-top: 450px;
+                margin-left: 70px;
+               font-size: 50%;}
+  
+               .second>.box1>h3{
+                margin-left:1px;
+               }
+            
+              .second>.linkRecipe{
+                position: relative;
+                top:10px;
+                left:1px;
+                width:50%;
+                
+              }
+              .second>.box2{
+                display: block;
+                width: 70%;
+                
+                text-align: left;
+                font-size: 70%;
+                margin-left: 70px;
+               
+              }
+              .break{
+                padding-top: 60px;;
+               
+                height: auto;
+                width:50%;
+                margin-top: 100px;
+                margin-left: 100px;
+               
+              }
+              .break>.mid{
+           
+                width:60%;
+                height: auto;
+                margin-left:10px;
+                margin-top: -10px;
+               
+              }
+              .break>.mid>.blkimg{
+                display:block;
+                width:50%;
+                margin-left: 20px;
+                margin:20px;
+                
+  
+              }
+              .break>.mid>.blkimg>img{
+                display: block;
+                margin:0;
+                margin-left: 30px;
+                padding:0;
+                padding-bottom: -10px;
+              }
+              .break>.mid>.blk{
+                display: block;
+                width: 100%;
+                padding:0;
+                margin-left: 40px;
+              } 
+              .major>.top>h2{
+                
+                margin-top: 30px;
+                margin-bottom: 30px;
+                margin-left: 40px;
+                text-align: left;
+              }
+              .middlecontainer{
+                width:70%;
+                margin-left: 90px;
+              }
+              .middlecontainer>.bio{
+                width:70%;
+                margin-left: 20px;
+                text-align: left;
+                font-size: 70%;
+                margin-bottom: 50px;
+              }
+              .middlecontainer>.bio>h1{
+                margin-left: 1px;
+                 }
+            .middlecontainer>.bio>p{
+                margin-left: 1px;
+              
+                 }
+               
+              .imageCar{
+                margin-left: 20px;
+                margin-top: 5px;
+                margin-bottom: 50px;
+                height:400px;
+              
+                
+              }
+              .imageCar>h4{
+                font-size: 90%;
+                text-align: left;
+                margin-top: 100px;
+                margin-left: 10px;
+                
+              }
+              .imageCar>.second{
+                margin-left: 1px;
+                position: relative;
+                bottom:180px;
+                width:420px;
+                height: 420px;
+               
+              }
+             .imageCar>.second>img{
+                height:400px;
+               width:400px;
+              
+              margin-left: 5px;
+           
+              }
+              .instagram{
+                margin-top: 300px;
+                
+               
+              }
+              .major{
+                width:90%;
+              
+                margin-top: 150px;
+                margin-left: 20px;
+               
+  
+              }
+              .major>.top{
+               
+                width:70%;
+                height:auto;
+                margin-bottom: 50px;
+               
+              
+              }
+              .major>.top>img{
+                box-shadow: 2px 5px black;
+                height:200px;
+                width:200px;
+                margin:30px;
+                margin-right: 40px;
+               
+              } 
+              .major>.top>h1{
+                
+                font-size: 90%;
+                margin-left: 30px;
+              }
+              .major>.top>p{
+                
+                margin-left: 30px;
+              }
+              .major>.top>button{
+                  margin-left: 50px;
+                  height:50%;
+                  font-size: 70%;
+              }
+          .major>.mid{
+           display: block;
+           width:60%;
+           height: auto;
+           margin-left:10px;
+           margin-top: -10px;
+           
+          
+         }
+         .major>.mid>.blkimg{
+           display:block;
+           
+           width:100%;
+           
+           margin:20px;
+  
+         }
+         .major>.mid>.blkimg>img{
+           display: block;
+          
+           margin:0;
+           margin-left: 40px;
+           padding:0;
+         
+           padding-bottom: -50px;
+         }
+         .major>.mid>.blk{
+           display: block;
+           width: 50%;
+           padding:0;
+           margin-left: 15px;
+         } 
+         .major>.mid>.details{
+          width:50%;
+         
+          margin-left: 20px;
+          font-size: 80%;
+          display: block;
+         }
+         .major>.mid>.details>h3{
+          font-size: 80%;
+         }
+         .major>.top>h3{
+          font-size: 90%;
+         }
+         .major>.top>ul{
+          font-size: 80%;
+         }
+        
+      
+          .barMain>.bar{
+            display:none;
+            
+            
+        }
+        /* .barmain{
+          width:50%;
+          border:1px solid black;
+          position: relative;
+          right:400px;
+        } */
+        .barMain>.dropdown{
+          display:block;
+          position: relative;
+          right:250px;
+          bottom:10px;
+          font-size: large;
+          letter-spacing: 0;
+          border-right: none;
+         
+        }
+        .main{
+            width:100%;
+            
+            margin-top: 200px;
+            margin-left: 30px;
+          }
+          .main>.pro{
+            display: block;
+            margin-left: 30px;
+            margin-bottom: 30px;
+          }
+          .category{
+            width: 350px;
+           
+            margin-left: 50px;
+          }
+          .category>.top>h3{
+            margin-left: 20px;
+          }
+          .anchor{
+            width:45%;
+            display: block;
+            text-align: left;
+           position: relative;
+           margin-top: 10px;
+           right:190px;
+          }
+          .anchor>a{
+            margin-left: 10px;
+          }
+          .category>.main1{
+          
+            margin-left: 10px;
+          }
+  
+          .category>.main1>.pro1>img{
+            width:300px;
+            height: 300px;
+           
+          }
+          .category>.main1>.pro1>p{
+            width:70%;
+            
+          }
+          .main1>.pro1>img:hover{
+              border-right: 10px solid black;
+          border-bottom: 25px solid black;
+            }
+  
+        .category>a{
+          width:125px;
+          position:relative;
+          left:85px;
+          bottom:100px;
+          margin-top: 30px;
+          font-size: 80%;
+          display: block;
+
+        }
+  
+     
+        
+        .recipeHighlight{
+          width:80%;
+          margin-left: 50px;
+          margin-top: 100px;
+       
+          height:auto;
+        }
+
+        .introDescription{
+          
+         position: relative;
+         left:10px;
+         width:100%;
+        }
+        .introImage{
+        display: block;    
+        margin-left: 40px;
+          
+      
+        }
+        .introImage>img{
+          position: relative;
+          
+          top:140px;
+          right:30px;
+          height:300px;width:320px;
+        }
+        .intro{
+          
+          width:80%;
+          display: block;
+          position: relative;
+          bottom:400px;
+          left:10px;
+          height: 350px;
+          
+        }
+         .intro>h1{
+          font-size: 90%;
+          padding-top: 20px;
+          margin-top: 10px;margin-left: 20px;
+        }
+        .intro>h2{
+          font-size: 90%;
+          margin-top: 10px;margin-left: 20px;
+        }
+        .intro>p{
+          font-size: 80%;
+          margin-top: 10px;margin-left: 20px;
+        }
+        .introAnchor{
+          margin-left: 20px; background-color: rgb(38, 109, 116);width: 120px;box-shadow: 2px 5px rgb(77, 174, 187);text-align: left;
+        }
+        .introAnchor>a{
+          display:inline-block;text-decoration: none;font-size:1rem;font-family: 'Times New Roman', Times, serif;height:30px;color:black;padding-bottom: 30px;
+        } 
+       footer> .foot{
+          
+          width:70%;
+          margin-left: 10px;
+          
+          height:150px;
+        }
+        footer> .foot>a>.blkimg>img{
+          position: relative;
+          bottom:100px;
+          height:50px;
+        }
+        footer>.foot>h6{
+          font-size: 100%;
+        }
+        footer>.foot>h6{
+          font-size: 70%;
+          position: relative;top:20px;right:130px;
+        }
+        footer>.menu{
+          /* border:1px solid red; */
+          width:90%;display:block;position: relative;left:30px;bottom:20px;
+        }
+        .menu>ul{
+          
+          position: relative;
+          right:30px;
+          bottom: 20px;
+        }
+        .menu>ul>li>h3{
+        
+          font-size: 90%;
+          margin-right: 20px;
+          position:relative;
+          right:30px;
+        }
+        .menu>ul>li>a>img{
+         
+          height:30px;display:inline-block;
+          border-radius: 30%;border:2px solid white;margin-left: 2px;margin-right: 15px;
+        }
+     
+            .main>.mainImage>img{
+                height:400px;
+                width:350px;
+                margin-left: 20px;
+          }
+          .mainImage>.heading{
+            position: relative;left:150px;bottom:60px;
+          }
+          .mainImage>.heading1{
+            position: relative;left:140px;bottom:60px;
+          }
+          .mainImage>.heading2{
+            position: relative;left:160px;bottom:60px;
+          }
+          .contentHeading{
+            width:50%;margin-left: 50px;display: block;position: relative;top:100px;
+          }
+          .form{
+            display: block;
+          }
+          .form>.example{
+           margin-left: 50px;  width:500px;position: relative;bottom:130px;
+          }
+          .form>.example>hr{
+            display: block;
+            width:300px;
+            
+            margin-top:20px;
+          }
+          .contentHeading>hr{
+            width:300px;bottom:10px;
+          }
+          .recipeContainer{
+            height:auto;
+          }
+          .recipeHeading{
+            display: block;width:100%;height: auto; 
+          }
+          .recipeHeading>h2{
+            margin-left: 50px;
+          }
+          .recipeHeading>img{
+            height:400px;width:350px;margin-left: 50px;
+          }
+          .recipeHeading>p{
+           font-size: 90%; width:85%; margin-left: 50px;margin-top: 30px;text-align: justify;height:auto;
+          }
+          .recipeHeading>a{
+            margin-left: 300px;text-decoration: none;color:black;
+          }
+          .introduction{
+            display: block;
+          }
+           .introContent{
+            position: relative;margin-top: 100px;  bottom:50px;left:50px;background-color: rgb(232, 251, 253);height:auto;
+           }
+           .instagram{
+            display: inline-block;margin-left: 50px;
+          }
+
+
+          .secondLayout{
+            height:auto; 
+            width:70%;
+            margin-left: 30px;
+            margin-top: 100px;
+            
+          }
+              .imagecontent{
+                margin-left: 80px;
+                
+                width:100%;
+               
+              
+              }
+             
+              .detailContent{
+                display: none;
+              }
+              .title{
+                margin-top: 100px;height:auto;margin-bottom: 100px;
+              }
+              .titleH1{
+              display: block;margin-left: 80px;text-align: left;width:50%;margin-top: 50px;
+            }
+            .formLayout{
+            width:300px;margin-bottom: 50px;display: block;margin-left:80px;border:1px solid black;position: relative;right:60px;
+      }
+      .recipeTitle{
+        width:50%;margin-left: 80px;margin-bottom: 50px;margin-top: 200px;
+      }
+      .recipeTitle>hr{
+        width:300px;
+      }
+    
+    
+          }
+
+      
+    
